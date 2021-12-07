@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/menu"
+        android:title="music"
+        app:showAsAction="always">
+        <menu>
+            <item android:id="@+id/menu_songoff"
+                android:title="Song off" />
+            <item android:id="@+id/menu_song1"
+                android:title="Song 1"/>
+            <item android:id="@+id/menu_song2"
+                android:title="Song 2"/>
+            <item android:id="@+id/menu_song3"
+                android:title="Song 3"/>
+            <item android:id="@+id/menu_song4"
+                android:title="Song 4"/>
+            <item android:id="@+id/menu_song5"
+                android:title="Song 5"/>
+            <item android:id="@+id/menu_song6"
+                android:title="Song 6"/>
+            <item android:id="@+id/menu_song7"
+                android:title="Song 7"/>
+        </menu>
+
+    </item>
+</menu>
